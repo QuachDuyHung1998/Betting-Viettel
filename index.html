@@ -1,0 +1,1412 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <!-- MDBootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/mdb-ui-kit/css/mdb.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="backgroundFull">
+        <div id="header"></div>
+        <div class="body container">
+            <section class="section-banner row">
+                <div class="banner-left col-md-7 col-12">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="images/banner.png" alt=""></div>
+                            <div class="swiper-slide"><img src="images/banner.png" alt=""></div>
+                            <div class="swiper-slide"><img src="images/banner.png" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="banner-right col-md-4">
+                    <img src="images/banner-right.png" alt="">
+                </div>
+                <div class="banner-icon col-md-1">
+                    <div class="item"><a href=""><img src="images/icons/scan.png" alt=""></a></div>
+                    <div class="item"><a href=""><img src="images/icons/call-calling.png" alt=""></a></div>
+                    <div class="item"><a href=""><img src="images/icons/facebook.png" alt=""></a></div>
+                    <div class="item"><a href=""><img src="images/icons/message-notif.png" alt=""></a></div>
+                    <div class="item"><a href=""><img src="images/icons/messages-2.png" alt=""></a></div>
+                </div>
+            </section>
+            <section class="section-top">
+                <div class="row align-items-start">
+                    <div class="section-top--left col-md-2 nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                            <img src="images/top/sports.png">
+                            <p>sports</p>
+                        </button>
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                            <img src="images/top/live.png">
+                            <p>live</p>
+                        </button>
+                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                            <img src="images/top/casino.png">
+                            <p>casino</p>
+                        </button>
+                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                            <img src="images/top/virtuel.png">
+                            <p>virtuel</p>
+                        </button>
+                    </div>
+                    <div class="section-top--right col-md-7 tab-content" id="v-pills-tabContent">
+                        <div class="row d-flex tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <div class="top-match">
+                                <div class="header-top d-flex">
+                                    <h5 class="name">
+                                        Top matchs
+                                    </h5>
+                                    <a href="#" class="more">
+                                        More
+                                    </a>
+                                </div>
+                                <div class="swiper mySwiper1">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="form-top">
+                                                <div class="form-top-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>UEFA Nations League</span>
+                                                </div>
+                                                <div class="form-top-time d-flex">
+                                                    <div class="object">
+                                                        <img src="images/top/Flag_of_Gibraltar%201.png">
+                                                        <div class="name">Gibraltar</div>
+                                                    </div>
+                                                    <div class="time-date">
+                                                        <div class="time">21:00</div>
+                                                        <div class="date">22/03/2024</div>
+                                                    </div>
+                                                    <div class="object">
+                                                        <img src="images/top/Flag_of_Lithuania%201.png">
+                                                        <div class="name">Lithuania</div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-top-quantity row">
+                                                    <div class=" col-4">
+                                                        <div class="style active">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                        <div class="percent d-flex">
+                                                            <div class="percent-number">
+                                                                99%
+                                                            </div>
+                                                            <hr class="percent-high">
+                                                        </div>
+                                                    </div>
+                                                    <div class=" col-4">
+                                                        <div class="style">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" col-4">
+                                                        <div class="style">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                        <div class="percent d-flex">
+                                                            <div class="percent-number">
+                                                                2%
+                                                            </div>
+                                                            <hr class="percent-low">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="form-top">
+                                                <div class="form-top-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>UEFA Nations League</span>
+                                                </div>
+                                                <div class="form-top-time d-flex">
+                                                    <div class="object">
+                                                        <img src="images/top/Flag_of_Gibraltar%201.png">
+                                                        <div class="name">Gibraltar</div>
+                                                    </div>
+                                                    <div class="time-date">
+                                                        <div class="time">21:00</div>
+                                                        <div class="date">22/03/2024</div>
+                                                    </div>
+                                                    <div class="object">
+                                                        <img src="images/top/Flag_of_Lithuania%201.png">
+                                                        <div class="name">Lithuania</div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-top-quantity row">
+                                                    <div class=" col-4">
+                                                        <div class="style active">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                        <div class="percent d-flex">
+                                                            <div class="percent-number">
+                                                                99%
+                                                            </div>
+                                                            <hr class="percent-high">
+                                                        </div>
+                                                    </div>
+                                                    <div class=" col-4">
+                                                        <div class="style">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" col-4">
+                                                        <div class="style">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                        <div class="percent d-flex">
+                                                            <div class="percent-number">
+                                                                2%
+                                                            </div>
+                                                            <hr class="percent-low">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="form-top">
+                                                <div class="form-top-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>UEFA Nations League</span>
+                                                </div>
+                                                <div class="form-top-time d-flex">
+                                                    <div class="object">
+                                                        <img src="images/top/Flag_of_Gibraltar%201.png">
+                                                        <div class="name">Gibraltar</div>
+                                                    </div>
+                                                    <div class="time-date">
+                                                        <div class="time">21:00</div>
+                                                        <div class="date">22/03/2024</div>
+                                                    </div>
+                                                    <div class="object">
+                                                        <img src="images/top/Flag_of_Lithuania%201.png">
+                                                        <div class="name">Lithuania</div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-top-quantity row">
+                                                    <div class=" col-4">
+                                                        <div class="style active">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                        <div class="percent d-flex">
+                                                            <div class="percent-number">
+                                                                99%
+                                                            </div>
+                                                            <hr class="percent-high">
+                                                        </div>
+                                                    </div>
+                                                    <div class=" col-4">
+                                                        <div class="style">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" col-4">
+                                                        <div class="style">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                        <div class="percent d-flex">
+                                                            <div class="percent-number">
+                                                                2%
+                                                            </div>
+                                                            <hr class="percent-low">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="form-top">
+                                                <div class="form-top-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>UEFA Nations League</span>
+                                                </div>
+                                                <div class="form-top-time d-flex">
+                                                    <div class="object">
+                                                        <img src="images/top/Flag_of_Gibraltar%201.png">
+                                                        <div class="name">Gibraltar</div>
+                                                    </div>
+                                                    <div class="time-date">
+                                                        <div class="time">21:00</div>
+                                                        <div class="date">22/03/2024</div>
+                                                    </div>
+                                                    <div class="object">
+                                                        <img src="images/top/Flag_of_Lithuania%201.png">
+                                                        <div class="name">Lithuania</div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-top-quantity row">
+                                                    <div class=" col-4">
+                                                        <div class="style active">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                        <div class="percent d-flex">
+                                                            <div class="percent-number">
+                                                                99%
+                                                            </div>
+                                                            <hr class="percent-high">
+                                                        </div>
+                                                    </div>
+                                                    <div class=" col-4">
+                                                        <div class="style">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" col-4">
+                                                        <div class="style">
+                                                            <div class="qty">
+                                                                1
+                                                            </div>
+                                                            <div class="price">
+                                                                6.80
+                                                            </div>
+                                                        </div>
+                                                        <div class="percent d-flex">
+                                                            <div class="percent-number">
+                                                                2%
+                                                            </div>
+                                                            <hr class="percent-low">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                                <div class="frame-parent1">
+                                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                        <div class="live-wrapper">
+                                            <div class="categories">LIVE</div>
+                                        </div>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                                <div class="categories">
+                                                    <div class="there-are-more">Sat</div>
+                                                    <div class="there-are-more">17/03</div>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                                <div class="categories">
+                                                    <div class="there-are-more">Sat</div>
+                                                    <div class="there-are-more">17/03</div>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link " id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                                <div class="categories">
+                                                    <div class="there-are-more">Sat</div>
+                                                    <div class="there-are-more">17/03</div>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-profile-tab1" data-bs-toggle="pill" data-bs-target="#pills-profile1" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                                <div class="categories">
+                                                    <div class="there-are-more">Sat</div>
+                                                    <div class="there-are-more">17/03</div>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-contact-tab1" data-bs-toggle="pill" data-bs-target="#pills-contact1" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                                <div class="categories">
+                                                    <div class="there-are-more">Sat</div>
+                                                    <div class="there-are-more">17/03</div>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <div class="bell-2-icon">
+                                            <i class="fa-solid fa-calendar-days" id="calendarIcon"></i>
+                                        </div>
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                            <div class="frame-group">
+                                                <div class="frame-group-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>Argentina Liga Proesional</span>
+                                                </div>
+                                                <div class="content d-flex">
+                                                    <div class="parent">
+                                                        <b class="b">09:00</b>
+                                                        <div class="div19">19/03</div>
+                                                    </div>
+                                                    <div class="team">
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Union SantUnion SantUnion Sant</a>
+                                                        </div>
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Central Cor...</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-top-quantity row">
+                                                        <div class=" col-4">
+                                                            <div class="style active">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    99%
+                                                                </div>
+                                                                <hr class="percent-high">
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    2%
+                                                                </div>
+                                                                <hr class="percent-low">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="move">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="frame-group">
+                                                <div class="frame-group-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>Argentina Liga Proesional</span>
+                                                </div>
+                                                <div class="content d-flex">
+                                                    <div class="parent">
+                                                        <b class="b">09:00</b>
+                                                        <div class="div19">19/03</div>
+                                                    </div>
+                                                    <div class="team">
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Union SantUnion SantUnion Sant</a>
+                                                        </div>
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Central Cor...</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-top-quantity row">
+                                                        <div class=" col-4">
+                                                            <div class="style active">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    99%
+                                                                </div>
+                                                                <hr class="percent-high">
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    2%
+                                                                </div>
+                                                                <hr class="percent-low">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="move">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                                            <div class="frame-group">
+                                                <div class="frame-group-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>Argentina Liga Proesional</span>
+                                                </div>
+                                                <div class="content d-flex">
+                                                    <div class="parent">
+                                                        <b class="b">09:00</b>
+                                                        <div class="div19">19/03</div>
+                                                    </div>
+                                                    <div class="team">
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Union SantUnion SantUnion Sant</a>
+                                                        </div>
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Central Cor...</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-top-quantity row">
+                                                        <div class=" col-4">
+                                                            <div class="style active">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    99%
+                                                                </div>
+                                                                <hr class="percent-high">
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    2%
+                                                                </div>
+                                                                <hr class="percent-low">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="move">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="frame-group">
+                                                <div class="frame-group-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>Argentina Liga Proesional</span>
+                                                </div>
+                                                <div class="content d-flex">
+                                                    <div class="parent">
+                                                        <b class="b">09:00</b>
+                                                        <div class="div19">19/03</div>
+                                                    </div>
+                                                    <div class="team">
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Union SantUnion SantUnion Sant</a>
+                                                        </div>
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Central Cor...</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-top-quantity row">
+                                                        <div class=" col-4">
+                                                            <div class="style active">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    99%
+                                                                </div>
+                                                                <hr class="percent-high">
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    2%
+                                                                </div>
+                                                                <hr class="percent-low">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="move">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+                                            <div class="frame-group">
+                                                <div class="frame-group-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>Argentina Liga Proesional</span>
+                                                </div>
+                                                <div class="content d-flex">
+                                                    <div class="parent">
+                                                        <b class="b">09:00</b>
+                                                        <div class="div19">19/03</div>
+                                                    </div>
+                                                    <div class="team">
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Union SantUnion SantUnion Sant</a>
+                                                        </div>
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Central Cor...</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-top-quantity row">
+                                                        <div class=" col-4">
+                                                            <div class="style active">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    99%
+                                                                </div>
+                                                                <hr class="percent-high">
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    2%
+                                                                </div>
+                                                                <hr class="percent-low">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="move">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="frame-group">
+                                                <div class="frame-group-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>Argentina Liga Proesional</span>
+                                                </div>
+                                                <div class="content d-flex">
+                                                    <div class="parent">
+                                                        <b class="b">09:00</b>
+                                                        <div class="div19">19/03</div>
+                                                    </div>
+                                                    <div class="team">
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Union SantUnion SantUnion Sant</a>
+                                                        </div>
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Central Cor...</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-top-quantity row">
+                                                        <div class=" col-4">
+                                                            <div class="style active">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    99%
+                                                                </div>
+                                                                <hr class="percent-high">
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    2%
+                                                                </div>
+                                                                <hr class="percent-low">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="move">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-profile1" role="tabpanel" aria-labelledby="pills-profile-tab1">
+
+                                            <div class="frame-group">
+                                                <div class="frame-group-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>Argentina Liga Proesional</span>
+                                                </div>
+                                                <div class="content d-flex">
+                                                    <div class="parent">
+                                                        <b class="b">09:00</b>
+                                                        <div class="div19">19/03</div>
+                                                    </div>
+                                                    <div class="team">
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Union SantUnion SantUnion Sant</a>
+                                                        </div>
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Central Cor...</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-top-quantity row">
+                                                        <div class=" col-4">
+                                                            <div class="style active">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    99%
+                                                                </div>
+                                                                <hr class="percent-high">
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    2%
+                                                                </div>
+                                                                <hr class="percent-low">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="move">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="frame-group">
+                                                <div class="frame-group-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>Argentina Liga Proesional</span>
+                                                </div>
+                                                <div class="content d-flex">
+                                                    <div class="parent">
+                                                        <b class="b">09:00</b>
+                                                        <div class="div19">19/03</div>
+                                                    </div>
+                                                    <div class="team">
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Union SantUnion SantUnion Sant</a>
+                                                        </div>
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Central Cor...</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-top-quantity row">
+                                                        <div class=" col-4">
+                                                            <div class="style active">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    99%
+                                                                </div>
+                                                                <hr class="percent-high">
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    2%
+                                                                </div>
+                                                                <hr class="percent-low">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="move">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-contact1" role="tabpanel" aria-labelledby="pills-contact-tab1">
+
+                                            <div class="frame-group">
+                                                <div class="frame-group-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>Argentina Liga Proesional</span>
+                                                </div>
+                                                <div class="content d-flex">
+                                                    <div class="parent">
+                                                        <b class="b">09:00</b>
+                                                        <div class="div19">19/03</div>
+                                                    </div>
+                                                    <div class="team">
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Union SantUnion SantUnion Sant</a>
+                                                        </div>
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Central Cor...</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-top-quantity row">
+                                                        <div class=" col-4">
+                                                            <div class="style active">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    99%
+                                                                </div>
+                                                                <hr class="percent-high">
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    2%
+                                                                </div>
+                                                                <hr class="percent-low">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="move">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="frame-group">
+                                                <div class="frame-group-name">
+                                                    <img src="images/top/Ellipse%2067.png" alt="">
+                                                    <span>Argentina Liga Proesional</span>
+                                                </div>
+                                                <div class="content d-flex">
+                                                    <div class="parent">
+                                                        <b class="b">09:00</b>
+                                                        <div class="div19">19/03</div>
+                                                    </div>
+                                                    <div class="team">
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Union SantUnion SantUnion Sant</a>
+                                                        </div>
+                                                        <div class="team-12">
+                                                            <img class="team-1-child" alt="" src="images/top/Ellipse%2067.png" />
+                                                            <a class="lithuania">Central Cor...</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-top-quantity row">
+                                                        <div class=" col-4">
+                                                            <div class="style active">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    99%
+                                                                </div>
+                                                                <hr class="percent-high">
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-4">
+                                                            <div class="style">
+                                                                <div class="qty">
+                                                                    1
+                                                                </div>
+                                                                <div class="price">
+                                                                    6.80
+                                                                </div>
+                                                            </div>
+                                                            <div class="percent d-flex">
+                                                                <div class="percent-number">
+                                                                    2%
+                                                                </div>
+                                                                <hr class="percent-low">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="move">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                    </div>
+                    <div class="bet-slip col-md-3">
+                        <div class="bet-slip-header">
+                            <div class="shop">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span>BET SLIP</span>
+                                <div class="qty">
+                                    1
+                                </div>
+                            </div>
+                            <div class="delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </div>
+                        </div>
+                        <div class="bet-slip-body">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="bet-slip" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">SINGLES </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="bet-slip1" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">MULTIPLE </button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="bet-slip">
+
+
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="bet-slip1">...</div>
+                            </div>
+                        </div>
+                        <div class="bet-slip-cash">
+
+                        </div>
+                        <div class="bet-slip-footer">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-hot section-hot--block row">
+                <div class="hot-left col-md-5">
+                    <img src="images/hot/pngwing 4.png" alt="">
+                </div>
+                <div class="hot-right col-md-7">
+                    <div class="header-hot">
+                        <h4 class="name">
+                            Hot
+                        </h4>
+                        <a href="#" class="more">
+                            More
+                        </a>
+                    </div>
+                    <div class="list-hot row">
+                        <div class="item col-md-4 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot/Rectangle%20386.png" alt="">
+                                </div>
+                                <div class="name">Baccarat</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-4 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot/Rectangle%20384.png" alt="">
+                                </div>
+                                <div class="name">Dragon Tiger</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-4 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot/Rectangle%20386%20(1).png" alt="">
+                                </div>
+                                <div class="name">Roulette</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-4 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot/Rectangle%20389.png" alt="">
+                                </div>
+                                <div class="name">Sic Bo</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-4 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot/Rectangle%20387.png" alt="">
+                                </div>
+                                <div class="name">Featured games</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-4 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot/Rectangle%20388.png" alt="">
+                                </div>
+                                <div class="name">Blockchain </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="section-hot row">
+                <div class="hot-left col-md-5">
+                    <img src="images/hot2/than%20tai%201.png" alt="">
+                </div>
+                <div class="hot-right col-md-7">
+                    <div class="header-hot">
+                        <h4 class="name">
+                            Hot
+                        </h4>
+                        <a href="#" class="more">
+                            More
+                        </a>
+                    </div>
+                    <div class="list-game row">
+                        <div class="item col-md-3 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot2/Rectangle%20390.png" alt="">
+                                </div>
+                                <div class="name">Power of Thor</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-3 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot2/Rectangle%20390.png" alt="">
+                                </div>
+                                <div class="name">Caishen Fortunes</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-3 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot2/Rectangle%20390.png" alt="">
+                                </div>
+                                <div class="name">Paraoh</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-3 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot2/Rectangle%20390.png" alt="">
+                                </div>
+                                <div class="name">Baccarat</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-3 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot2/Rectangle%20390.png" alt="">
+                                </div>
+                                <div class="name">Baccarat</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-3 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot2/Rectangle%20390.png" alt="">
+                                </div>
+                                <div class="name">Baccarat</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-3 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot2/Rectangle%20390.png" alt="">
+                                </div>
+                                <div class="name">Baccarat</div>
+                            </a>
+                        </div>
+                        <div class="item col-md-3 col-6">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="images/hot2/Rectangle%20390.png" alt="">
+                                </div>
+                                <div class="name">Baccarat</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-entertainment">
+                <div class="section-entertainment-name">
+                    Estar More types of games are available to enrich your entertainment!
+                    <hr>
+                </div>
+                <div class="section-entertainment-list">
+                    <div class="swiper entertainmentSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/entertainment/Group%203142.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/entertainment/Group%203143.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/entertainment/Group%203144.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/entertainment/Group%203145.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/entertainment/Group%203142.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/entertainment/Group%203142.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/entertainment/Group%203143.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/entertainment/Group%203144.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/entertainment/Group%203145.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/entertainment/Group%203142.png" alt="">
+                            </div>
+                        </div>
+                        <div class="button-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="73" viewBox="0 0 43 73" fill="none">
+                                <g filter="url(#filter0_d_0_1497)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7322 10.877C11.7085 9.70798 13.2915 9.70798 14.2678 10.877L30.3015 30.0759C31.6762 31.7321 32.4477 33.9722 32.4477 36.3072C32.4477 38.6422 31.6762 40.8823 30.3015 42.5385L30.2961 42.545L14.2678 61.7374C13.2915 62.9064 11.7085 62.9064 10.7322 61.7374C9.75592 60.5683 9.75592 58.673 10.7322 57.5039L26.7552 38.318C26.7559 38.3172 26.7566 38.3163 26.7573 38.3154C27.1996 37.7812 27.4477 37.0595 27.4477 36.3072C27.4477 35.5551 27.1996 34.8334 26.7575 34.2992C26.7567 34.2983 26.756 34.2973 26.7552 34.2964L10.7322 15.1105C9.75592 13.9414 9.75592 12.0461 10.7322 10.877Z" fill="#141414"/>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_0_1497" x="0" y="0.000244141" width="42.4477" height="72.6139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                        <feOffset/>
+                                        <feGaussianBlur stdDeviation="5"/>
+                                        <feComposite in2="hardAlpha" operator="out"/>
+                                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.46 0 0 0 0 1 0 0 0 1 0"/>
+                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1497"/>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1497" result="shape"/>
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+<!--            <section class="section-steps">-->
+<!--                <div class="list-steps">-->
+<!--                    <div class="item-steps">-->
+<!--                        <div class="steps-icon">-->
+<!--                            <img src="images/steps-icons/edit.png">-->
+<!--                        </div>-->
+<!--                        <div class="steps-stt">-->
+
+<!--                        </div>-->
+<!--                        <div class="steps-content">-->
+
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </section>-->
+            <div class="section-mobileLive container">
+                <div class="row">
+                    <div class="col-md-6 name">
+                        <div class="title">Mobile Live New Age</div>
+                        <div class="title">Multi-games enjoy now</div>
+                        <div class="download row">
+                            <p class="col-12"> Download the latest APP now</p>
+                            <div class="col-6 firm">
+                                IOS & Android
+                                Supports All Mobile
+                                Devices
+                            </div>
+                            <div class="col-6 button">
+                                <a href="#">Download
+                                    Instructions</a>
+                            </div>
+                        </div>
+                        <div class="download row">
+                            <p class="col-12"> Direct accesswithout dowload</p>
+                            <div class="col-6 firm">
+                                https://estar.com
+                            </div>
+                            <div class="col-6 button">
+                                <a href="#">Go Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/pngwing%202.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdb-ui-kit/js/mdb.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="style.js"></script>
+<script src="inculde.js"></script>
+</html>

@@ -1,0 +1,363 @@
+@media (min-width: 991px) {
+  .header-desktop {
+    display: block;
+  }
+  .header-mobile {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .header-desktop {
+    display: none;
+  }
+  .header-mobile {
+    display: block;
+  }
+  .backgroundFull .body {
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .backgroundFull .body .section-banner {
+    height: 24vh;
+  }
+  .backgroundFull .body .section-banner .banner-left .swiper-slide {
+    height: 24vh;
+  }
+  .backgroundFull .body .section-banner .banner-right {
+    height: 24vh;
+  }
+  .backgroundFull .body .section-banner .banner-icon {
+    height: 24vh;
+  }
+  .backgroundFull .body .section-top {
+    padding: 12px;
+  }
+  .backgroundFull .body .section-top--left {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+  }
+  .backgroundFull .body .section-top--left .nav-link {
+    gap: 5px;
+    background: none;
+    padding: 5px 10px;
+  }
+  .backgroundFull .body .section-top--left .nav-link img {
+    display: none;
+  }
+  .backgroundFull .body .section-top--left .nav-link p {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+  }
+  .backgroundFull .body .section-top--left .nav-link.active {
+    background: rgb(255, 190, 26);
+  }
+  .backgroundFull .body .section-top--left .nav-link.active p {
+    color: black;
+  }
+  .backgroundFull .body .section-top--right .top-match .header-top {
+    display: none !important;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 16px;
+    border: 1px solid rgb(12, 39, 69);
+    background: rgb(6, 22, 40);
+    padding: 10px;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-name {
+    display: flex;
+    justify-content: center;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-name img {
+    object-fit: contain;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-name span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(245, 245, 250);
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-time {
+    justify-content: space-between;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-time .object {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-time .object img {
+    object-fit: contain;
+    border-radius: 4px;
+    border: 1px solid rgb(53, 57, 69);
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-time .object .name {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(245, 245, 250);
+    margin-top: 10px;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-time .time-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-time .time-date .time {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(230, 232, 236);
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-time .time-date .date {
+    color: rgb(230, 232, 236);
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-quantity .style {
+    width: 100%;
+    display: flex;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid rgb(12, 39, 69);
+    color: white;
+    font-size: 12px;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-quantity .style .qty {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-quantity .style .price {
+    background: rgb(12, 39, 69);
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-quantity .style.active {
+    border: 1px solid rgb(255, 190, 26);
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-quantity .style.active .qty {
+    color: rgb(255, 190, 26);
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-quantity .style.active .price {
+    background: rgb(255, 190, 26);
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-quantity .percent {
+    margin-top: 10px;
+    align-items: center;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-quantity .percent-number {
+    color: rgb(177, 181, 195);
+    font-size: 10px;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-quantity .percent hr {
+    margin: 0px 6px 0px;
+    height: 3px;
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-quantity .percent hr.percent-low {
+    width: 5%;
+    color: rgb(246, 125, 36);
+  }
+  .backgroundFull .body .section-top--right .top-match .form-top-quantity .percent hr.percent-high {
+    width: 98%;
+    color: rgb(18, 179, 71);
+  }
+  .backgroundFull .body .section-top--right .top-match .swiper-button-next, .backgroundFull .body .section-top--right .top-match .swiper-button-prev {
+    --swiper-navigation-size: 24px;
+    padding: 16px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-parent1 {
+    margin-top: 20px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-parent1 .nav-pills .live-wrapper {
+    font-size: 12px;
+    color: rgb(250, 250, 250);
+    padding: 3px 8px;
+    background: rgb(232, 72, 72);
+    border-radius: 4px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-parent1 .nav-pills .nav-item {
+    display: none;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-parent1 .nav-pills .nav-item:nth-child(-n+4) {
+    display: block;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-parent1 .nav-pills .nav-item button {
+    padding: 2px 20px;
+    text-transform: inherit;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: none;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-parent1 .nav-pills .nav-item button .categories .there-are-more {
+    line-height: 20px;
+    font-size: 14px;
+    color: rgb(177, 181, 195);
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-parent1 .nav-pills .nav-item button.active {
+    background: linear-gradient(0deg, #F67D24 0%, #FF9900 33.33%, #FF9A01 66.67%, #FFCF2C 100%);
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-parent1 .nav-pills .nav-item button.active .categories .there-are-more {
+    color: rgb(255, 255, 255);
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-parent1 .nav-pills .bell-2-icon i {
+    color: rgb(177, 181, 195);
+    font-size: 20px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group {
+    margin-top: 10px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group-name img {
+    width: 14px;
+    height: 14px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group-name span {
+    font-size: 16px;
+    color: rgb(245, 245, 250);
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group .content {
+    padding: 5px;
+    gap: 5px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group .content .parent {
+    padding-right: 10px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group .content .parent .b {
+    font-size: 14px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group .content .parent .div19 {
+    font-size: 12px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group .content .team {
+    padding-right: 10px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group .content .team .team-12 {
+    margin: 5px 0;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group .content .team .team-12 img {
+    width: 18px;
+    height: 18px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group .content .team .team-12 .lithuania {
+    font-size: 13px;
+    width: 50px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group .content .form-top-quantity {
+    min-width: 50%;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group .content .form-top-quantity .col-4 {
+    padding: 0px 5px;
+  }
+  .backgroundFull .body .section-top--right .top-match .frame-group .content a {
+    font-size: 24px;
+    color: rgb(230, 232, 236);
+  }
+  .backgroundFull .body .section-top .bet-slip {
+    border-radius: 16px;
+    background: rgb(6, 22, 40);
+    padding: 15px;
+  }
+  .backgroundFull .body .section-top .bet-slip-header {
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .backgroundFull .body .section-top .bet-slip-header i {
+    color: white;
+    font-size: 24px;
+  }
+  .backgroundFull .body .section-top .bet-slip-header .shop {
+    position: relative;
+  }
+  .backgroundFull .body .section-top .bet-slip-header .shop span {
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+  }
+  .backgroundFull .body .section-top .bet-slip-header .shop .qty {
+    position: absolute;
+    top: -7px;
+    right: -25px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: rgb(255, 190, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .backgroundFull .body .section-top .bet-slip-body .nav-item {
+    width: 50%;
+  }
+  .backgroundFull .body .section-top .bet-slip-body .nav-item button {
+    background: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    border-bottom: 4px solid rgb(6, 22, 40);
+  }
+  .backgroundFull .body .section-top .bet-slip-body .nav-item button.active {
+    border-color: rgb(255, 190, 26);
+  }
+}
+@media (min-width: 768px) {
+  .footer-desktop {
+    display: block;
+  }
+  .footer-mobile {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .backgroundFull .body {
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .backgroundFull .body .section-banner {
+    height: 24vh;
+  }
+  .backgroundFull .body .section-banner .banner-right {
+    display: none;
+  }
+  .backgroundFull .body .section-banner .banner-icon {
+    display: none;
+  }
+  .backgroundFull .body .section-hot .hot-left {
+    display: none;
+  }
+  .backgroundFull .body .section-hot.section-hot--block {
+    display: none;
+  }
+  .backgroundFull .body .section-entertainment {
+    display: none;
+  }
+  .backgroundFull .body .section-mobileLive {
+    display: none;
+  }
+  .footer-desktop {
+    display: none;
+  }
+  .footer-mobile {
+    display: block;
+  }
+  .login-form .login-row .img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
